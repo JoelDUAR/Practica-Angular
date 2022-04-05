@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark m-1">
+    <div class="container-fluid">
+      <div class="row collapse navbar-collapse" id="navbarSupportedContent">
+        <p class="col-3 text-white">Joel Dupraz Ardiles</p>
+        <form class="d-flex col-9 justify-content-end">
+          
+          <button class="btn btn-outline-success" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <header class="card mat-card" id="card">
+      <div class="img-container">
+          <img [src]="miPorfolio.backImage" class="card-img-top" alt="imagen de fondo">
+      </div>
+    <div id="information" style="padding: 16px">
+      <div id="profile">
+        <img
+          id="img-profile"
+          [src]="miPorfolio.image"
+          alt="perfil"
+        />
+        </div>
+      </div>
+      <div id="info">
+        <div>
+          <h1>{{miPorfolio.name}}</h1>
+          <div id="ocupation">{{miPorfolio.position}}</div>
+          <div id="info-contact">
+            <span>{{miPorfolio.ubication}}</span>
+          </div>
+        </div>      
+      </div>
+      <div id="info-actions">
+        <a href="./html/Info.html" class="btn btn-primary">Información de contacto</a>
+      </div>
+  </header>

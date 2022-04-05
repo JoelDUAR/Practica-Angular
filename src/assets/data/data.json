@@ -1,0 +1,11 @@
+{
+    "name": "Joel Dupraz Ardiles",
+    "backImage":"assets/fondo-de-mediana-capitalizacion.jpg",
+    "image": "assets/Civil_JyC-18.jpg",
+    "position": "Estudiante",
+    "school": {
+        "name":"Argentina Programa",
+        "url":"#"
+    },
+    "ubication":"Córdoba"
+}
